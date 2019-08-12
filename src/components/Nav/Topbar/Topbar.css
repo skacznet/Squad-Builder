@@ -1,0 +1,14 @@
+.TopbarContainer {
+    flex-grow: 1;
+}
+
+.TopbarContainer .DrawerToggle {
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 767px) {
+    .TopbarContainer .DrawerToggle {
+        display: inline-block;
+    }
+}

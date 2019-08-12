@@ -1,0 +1,28 @@
+.ColorsWrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    justify-content: flex-start;
+}
+
+.ColorItem {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.activeColor {
+    box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.ColorPickerLabel {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}

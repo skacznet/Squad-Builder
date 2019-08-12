@@ -1,0 +1,91 @@
+.Paper {
+    padding: 24px;
+}
+
+.Paper > div > h2 {
+    margin-top: 0;
+}
+
+.SubmitBtn {
+    margin-top: 15px;
+}
+
+.MaterialContainer .ErrorSnackbar {
+    background-color: #c62828;
+    border-radius: 4px;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.MaterialContainer .SuccessSnackbar {
+    background-color: #60ad5e;
+    border-radius: 4px;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.MaterialContainer .FormControl {
+    margin-bottom: 10px;
+}
+
+.SmallTextField label {
+    transform: translate(14px, 13px) scale(1);
+}
+
+.MaterialContainer .SmallTextField {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.SmallTextField input {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.SmallTextField label {
+    transform: translate(10px, 9px) scale(1);
+    font-size: 14px;
+}
+
+.Fab {
+    position: fixed !important;
+    bottom: 48px;
+    right: 48px;
+    z-index: 9999;
+    background-color: #00c853 !important;
+    color: #fff !important;
+}
+
+.Fab:hover {
+    background-color: #00b74c !important;
+}
+
+.FabSecond {
+    position: fixed !important;
+    bottom: 48px;
+    right: 120px;
+    z-index: 9999;
+    color: #2e7d32 !important;
+}
+
+.MaterialContainer .ErrorLabel {
+    color: #f44336;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.ModalContainer {
+    padding: 24px;
+    background: #fff;
+    position: absolute;
+    width: 280px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.ModalContainer h3 {
+    margin-top: 0;
+}

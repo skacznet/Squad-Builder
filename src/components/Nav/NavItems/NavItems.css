@@ -1,0 +1,33 @@
+.NavUl {
+    list-style-type: none;
+}
+
+.NavUl li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.NavUl.MobileNav {
+    padding: 0;
+    margin: 0;
+}
+
+.NavUl.MobileNav li {
+    display: block;
+    margin: 0;
+    min-width: 240px;
+}
+
+.NavUl.MobileNav li a {
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    text-align: left;
+    display: block;
+}
+
+@media(max-width: 767px) {
+    .NavUl:not(.MobileNav) {
+        display: none;
+    }
+}

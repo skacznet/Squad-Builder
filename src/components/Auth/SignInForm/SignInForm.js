@@ -14,14 +14,16 @@ const SignInForm = props => {
             value: '',
             label: 'Your e-mail',
             autoComplete: 'username',
-            type: 'text'
+            type: 'text',
+            order: 0
         },
         password: {
             id: 'password',
             value: '',
             label: 'Your password',
             autoComplete: 'current-password',
-            type: 'password'
+            type: 'password',
+            order: 1
         }
     });
     
@@ -40,10 +42,10 @@ const SignInForm = props => {
     // Convert form controls to an array
     const formControlsArray = [];
     for(let key in formControls) {
-        formControlsArray.push({
+        formControlsArray[formControls[key].order] = {
             id: key,
             config: formControls[key]
-        });
+        }
     }
 
     // Map form controls array to TextField elements
